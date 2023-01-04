@@ -10,7 +10,7 @@
   
   html {
     /*variáveis*/
-    --bg-color: #e1e8fa;
+    --bg-color: #EDF2FF;
     --text-color: #00082F;
     --primary-color: #4263EB;
     --primary-color-dark: #364FC7; 
@@ -21,11 +21,11 @@
     --text-color: #FFFFFF;
   }
   
-  body.blue {
-    --bg-color: #daf6fa;
-    --text-color: #1a010a;
-    --primary-color: #1e509b;
-    --primary-color-dark: #0b315c;
+  body.pink {
+    --bg-color: #FFF0F6;
+    --text-color: #1F000B;
+    --primary-color: #D6336C;
+    --primary-color-dark: #A61E4D;
   }
   
   
@@ -59,7 +59,7 @@
     margin-bottom: 8px;
   }
   
-  .username {
+  .description {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     opacity: 0.8;
@@ -92,3 +92,17 @@
     background: var(--primary-color-dark);
   }
   
+  footer {
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: opacity 400ms;
+  }
+  
+  footer:hover {
+    opacity: 1;
+  }
+  
+  footer a{
+    color: var(--text-color);
+  }
